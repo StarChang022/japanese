@@ -1,0 +1,26 @@
+/* Scenes —————————————————————————————— */
+.scenes { background-image: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../images/background.jpg) ; }
+.scenes .container { max-width: 60rem ; }
+.scenes .heading { max-width: 40rem ; }
+.scenes .overlay { margin-bottom: 1rem ; }
+.scenes .overlay .space { background: linear-gradient(to top, #000000B0, #00000012, #00000012) ; }
+.scenes .overlay .space:hover { background: linear-gradient(to top, #000000B0, #000000B0, #000000B0) ; }
+.scenes .overlay .space small { color: #FFFFFF ; }
+.scenes .overlay .space .title h2 { font-size: 1.25rem ; }
+.scenes .board { padding: 1rem ; border-radius: 0.625rem ; background-color: #FFFFFF ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ; }
+.scenes .board { max-width: 40rem ; margin: 0 auto ; }
+.scenes .board .heading { max-width: initial ; display: flex ; }
+.scenes .board .heading .title { flex: 1 1 auto ; }
+.scenes .board .learn .sentence { margin-bottom: 2rem ; }
+.scenes .board .learn .sentence p { font-size: 1.125rem ; margin-bottom: 0 ; }
+.scenes .board .learn .sentence span { display: block ; font-weight: 300 ; }
+.scenes .board .learn .sentence b { font-size: 0.875rem ; font-weight: 400 ; margin-right: 0.5rem ; }
+.scenes .board .learn .sentence b::before { content: '＊'; }
+
+
+
+
+
+
+
+

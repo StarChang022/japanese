@@ -1,0 +1,50 @@
+/* Translation —————————————————————————————— */
+#translation {
+	z-index: 599 ;
+	position: fixed ;
+	width: 40px ;
+	height: 40px ;
+	background-color: #333 ;
+	background-color: rgb(227 197 227) ;
+	font-size: 0.875rem ;
+	line-height: 36px ;
+	text-align: center ;
+	color: #FFF ;
+	top: auto ;
+	left: auto ;
+	right: 30px ;
+	bottom: 80px ;
+	cursor: pointer ;
+	border-radius: 2px ;
+}
+#chinese { color: #BFBFBF ; font-size: 0.875rem ; font-weight: 300 ; }
+
+/* Songs —————————————————————————————— */
+.songs { background-image: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../images/background.jpg) ; }
+.songs .container { max-width: 60rem ; }
+.songs .heading { max-width: 40rem ; }
+.songs .overlay { margin-bottom: 1rem ; }
+.songs .overlay .space { background: linear-gradient(to top, #000000B0, #00000012, #00000012) ; }
+.songs .overlay .space:hover { background: linear-gradient(to top, #000000B0, #000000B0, #000000B0) ; }
+.songs .overlay .space small { color: #FFFFFF ; }
+.songs .overlay .space .title h2 { font-size: 1.25rem ; }
+.songs .board { padding: 1rem ; border-radius: 0.625rem ; background-color: #FFFFFF ; box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ; }
+.songs .board { max-width: 40rem ; margin: 0 auto ; }
+.songs .board .heading { max-width: initial ; display: flex ; }
+.songs .board .heading .title ,
+.songs .board .heading .youtube { flex: 1 1 auto ; }
+.songs .board .heading .youtube { text-align: right ; font-size: 2rem ; }
+.songs .board .heading .youtube i { color: #FF0000 ; }
+.songs .board .lyric p { font-size: 1.125rem ; }
+.songs .board .lyric .paragraph { margin-bottom: 4rem ; }
+.songs .board .lyric .paragraph rt { color: #BFBFBF ; }
+
+
+
+
+
+
+
+
+
+

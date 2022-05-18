@@ -1,0 +1,88 @@
+/* Basic —————————————————————————————— */
+#logo , .menu-container{ border: 0 !important ; } /*刪除 HEADER Border 線條*/
+#logo img , .header-wrap-clone { height: 4.375rem !important ; } /*減少 HEADER 高度*/
+.menu-link { padding: 1rem 1rem !important ; font-size: 1rem ; font-weight: 400 ; } /*減少 HEADER 高度*/ /*HEADER Menu 字體大小*/
+
+/* HEADER —————————————————————————————— */
+.top-cart-content .top-cart-items .items { margin-bottom: 0.5rem ; }
+.top-cart-content .top-cart-items .items a { color: #05A585 ; }
+.top-cart-action { border-top: 0 ; padding-top: 0 ; }
+.top-cart-content { width: 10rem ; }
+
+/* FOOTER —————————————————————————————— */
+#footer a ,
+#footer .information a ,
+#footer .pages { color: #444444 ; }
+#footer { background-color: #EAF3FF ; border: 0 ; }
+#footer .content-wrap { padding: 3rem 0 ; }
+#footer .pages { margin-bottom: 1.5rem ; font-size: 1rem ; font-weight: 300 ; }
+#footer .pages .links { margin-bottom: 0.5rem ; }
+#footer .title { font-size: 1rem ; font-weight: 500 ; margin-bottom: 0.5rem ; }
+#footer .information { margin-bottom: 2rem ; }
+#footer .information ul { list-style-type: none ; padding: 0 ; margin: 0 ; }
+#footer .information li ,
+#footer .information a { font-weight: 200 ; margin-bottom: 0.5rem ; }
+#footer .information i { margin-right: 0.5rem ; }
+#copyrights { background-color: #DDDDDD ; }
+#copyrights .words { position: relative ; text-align: center ; font-size: 1rem ; font-weight: 300 ; }
+@media ( min-width: 577px ) {
+	#copyrights br { display: none ; }
+	#copyrights .pages { float: right ; }
+}
+@media ( max-width: 576px ) {
+	#footer .container { padding: 0 3rem ; }
+}
+
+/* Buttons —————————————————————————————— */
+.buttons { border-radius : 0.3rem ; padding: 0.25rem 1rem ; font-weight: 400 ; font-size: 0.875rem ; }
+.buttons.small { padding: 0.125rem 0.5rem ; font-weight: 400 ; }
+.buttons.large { padding: 1rem 3rem ; }
+/* Buttons Color —————————————————————————————— */
+.buttons.green { color: #FFFFFF !important ; background-color: #059778 ; border: 1px solid #059778 ; }
+.buttons.green.outline { color: #059778 !important ; background-color: #FFFFFF ; border: 1px solid #059778 ; }
+
+/* General —————————————————————————————— */
+@media ( min-width: 577px ) { .mobile { display: none ; } }
+@media ( max-width: 576px ) { .pc { display: none ; } }
+/* General Heading —————————————————————————————— */
+.heading { margin-bottom: 2rem ; }
+.heading h1 ,
+.heading h2 { font-size: 2rem ; }
+.heading p { font-size: 1.25rem ; font-weight: 300 ; }
+.heading.center { justify-content: center ; }
+/* General Divider —————————————————————————————— */
+.divider { content: '' ; display: block ; margin: 1rem 0 ; border-top: 1px solid #E5E5E5 ; }
+/* General Tag —————————————————————————————— */
+.tag { display: inline-block ; font-size: 1rem ; color: #666666 ; border: 1px solid #E5E5E5 ; border-radius: 0.5rem ; padding: 0.25rem 0.5rem ; margin-bottom: 0.5rem ; }
+/* General Dropdown —————————————————————————————— */
+.dropdown { border: 0 ; background-color: #FFFFFF00 ; }
+.dropdown img { width: 1.5rem ; height: 1.5rem ; }
+.dropdown-menu .other { padding: 0.25rem 1rem ; }
+/* General Overlay —————————————————————————————— */
+.overlay ,
+.overlay img ,
+.overlay .space { border-radius: 0.625rem ; }
+.overlay { position: relative ; border: 4px solid #FFFFFF00 ; }
+.overlay .space { position: absolute ; bottom: 0 ; left: 0 ; width: 100% ; height: 100% ; }
+.overlay .space { background: linear-gradient(to top, #00000038, #00000038, #00000038) ; }
+.overlay .space:hover { background: linear-gradient(to top, #0000001C, #0000001C, #0000001C) ; }
+.overlay .space .title { position: absolute ; bottom: 0.5rem ; left: 0.5rem ; }
+.overlay .space .title h2 ,
+.overlay .space .title small { color: #FFFFFF ; } 
+.overlay .space .title h2 { font-size: 1.5rem ; }
+.overlay .space .title small { font-size: 1rem ; }
+/* General Breadcrumb —————————————————————————————— */
+.breadcrumbs { padding: 0.5rem 0 ; background-color: #FBFBFB ; text-align: right ; }
+.breadcrumbs a ,
+.breadcrumbs span { color: #BDBDBD ; }
+.breadcrumbs a:hover { color: #9F9F9F ; }
+.breadcrumbs a+a::before ,
+.breadcrumbs a+span::before ,
+.breadcrumbs span+a::before { content: "／" ; display: inline-block ; padding: 0 0.5rem ; color: #BDBDBD ; }
+
+
+
+
+
+
+
